@@ -12,6 +12,8 @@
 		F0B134721C91A24C004C2884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B134701C91A24C004C2884 /* Main.storyboard */; };
 		F0B134741C91A24C004C2884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B134731C91A24C004C2884 /* Assets.xcassets */; };
 		F0B134771C91A24C004C2884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B134751C91A24C004C2884 /* LaunchScreen.storyboard */; };
+		F0B1347F1C91A678004C2884 /* secViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1347E1C91A678004C2884 /* secViewController.swift */; };
+		F0B134831C91A6D7004C2884 /* status.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B134821C91A6D7004C2884 /* status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F0B134731C91A24C004C2884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0B134761C91A24C004C2884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0B134781C91A24C004C2884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B1347E1C91A678004C2884 /* secViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secViewController.swift; sourceTree = "<group>"; };
+		F0B134821C91A6D7004C2884 /* status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F0B134731C91A24C004C2884 /* Assets.xcassets */,
 				F0B134751C91A24C004C2884 /* LaunchScreen.storyboard */,
 				F0B134781C91A24C004C2884 /* Info.plist */,
+				F0B1347E1C91A678004C2884 /* secViewController.swift */,
+				F0B134821C91A6D7004C2884 /* status.swift */,
 			);
 			path = ColdorHot;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0B1346F1C91A24C004C2884 /* ViewController.swift in Sources */,
+				F0B1347F1C91A678004C2884 /* secViewController.swift in Sources */,
 				F0B1346D1C91A24C004C2884 /* AppDelegate.swift in Sources */,
+				F0B134831C91A6D7004C2884 /* status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +256,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ColdorHot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akash.ColdorHot;
@@ -259,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ColdorHot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akash.ColdorHot;
