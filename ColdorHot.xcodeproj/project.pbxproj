@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0B1346D1C91A24C004C2884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1346C1C91A24C004C2884 /* AppDelegate.swift */; };
+		F0B1346F1C91A24C004C2884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1346E1C91A24C004C2884 /* ViewController.swift */; };
+		F0B134721C91A24C004C2884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B134701C91A24C004C2884 /* Main.storyboard */; };
+		F0B134741C91A24C004C2884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B134731C91A24C004C2884 /* Assets.xcassets */; };
+		F0B134771C91A24C004C2884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B134751C91A24C004C2884 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0B134691C91A24C004C2884 /* ColdorHot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdorHot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B1346C1C91A24C004C2884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0B1346E1C91A24C004C2884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0B134711C91A24C004C2884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0B134731C91A24C004C2884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0B134761C91A24C004C2884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0B134781C91A24C004C2884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0B134661C91A24C004C2884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0B134601C91A24C004C2884 = {
+			isa = PBXGroup;
+			children = (
+				F0B1346B1C91A24C004C2884 /* ColdorHot */,
+				F0B1346A1C91A24C004C2884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0B1346A1C91A24C004C2884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0B134691C91A24C004C2884 /* ColdorHot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B1346B1C91A24C004C2884 /* ColdorHot */ = {
+			isa = PBXGroup;
+			children = (
+				F0B1346C1C91A24C004C2884 /* AppDelegate.swift */,
+				F0B1346E1C91A24C004C2884 /* ViewController.swift */,
+				F0B134701C91A24C004C2884 /* Main.storyboard */,
+				F0B134731C91A24C004C2884 /* Assets.xcassets */,
+				F0B134751C91A24C004C2884 /* LaunchScreen.storyboard */,
+				F0B134781C91A24C004C2884 /* Info.plist */,
+			);
+			path = ColdorHot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0B134681C91A24C004C2884 /* ColdorHot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B1347B1C91A24C004C2884 /* Build configuration list for PBXNativeTarget "ColdorHot" */;
+			buildPhases = (
+				F0B134651C91A24C004C2884 /* Sources */,
+				F0B134661C91A24C004C2884 /* Frameworks */,
+				F0B134671C91A24C004C2884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColdorHot;
+			productName = ColdorHot;
+			productReference = F0B134691C91A24C004C2884 /* ColdorHot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0B134611C91A24C004C2884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = akash;
+				TargetAttributes = {
+					F0B134681C91A24C004C2884 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S2Z6K6B23N;
+					};
+				};
+			};
+			buildConfigurationList = F0B134641C91A24C004C2884 /* Build configuration list for PBXProject "ColdorHot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0B134601C91A24C004C2884;
+			productRefGroup = F0B1346A1C91A24C004C2884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0B134681C91A24C004C2884 /* ColdorHot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0B134671C91A24C004C2884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B134771C91A24C004C2884 /* LaunchScreen.storyboard in Resources */,
+				F0B134741C91A24C004C2884 /* Assets.xcassets in Resources */,
+				F0B134721C91A24C004C2884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0B134651C91A24C004C2884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B1346F1C91A24C004C2884 /* ViewController.swift in Sources */,
+				F0B1346D1C91A24C004C2884 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0B134701C91A24C004C2884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B134711C91A24C004C2884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0B134751C91A24C004C2884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B134761C91A24C004C2884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0B134791C91A24C004C2884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0B1347A1C91A24C004C2884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0B1347C1C91A24C004C2884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColdorHot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akash.ColdorHot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0B1347D1C91A24C004C2884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColdorHot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akash.ColdorHot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0B134641C91A24C004C2884 /* Build configuration list for PBXProject "ColdorHot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B134791C91A24C004C2884 /* Debug */,
+				F0B1347A1C91A24C004C2884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B1347B1C91A24C004C2884 /* Build configuration list for PBXNativeTarget "ColdorHot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B1347C1C91A24C004C2884 /* Debug */,
+				F0B1347D1C91A24C004C2884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0B134611C91A24C004C2884 /* Project object */;
+}
